@@ -19,20 +19,20 @@
             <div class="container__cash">
                 <div class="cash">
                     <div>
-                        <div class="cash__value green">R$ 0,00</div>
+                        <div class="cash__value green saldo__p">R$ 0,00</div>
                         <div class="cash__logo"></div>
                     </div>
                 </div>
                 <div class="cash">
                     <div>
-                        <div class="cash__value red">R$ 0,00</div>
+                        <div class="cash__value red saldo__n">R$ 0,00</div>
                         <div class="cash__logo redImg"></div>
                     </div>
                 </div>
                 <div class="cash">
                     <div>
-                        <div class="cash__value">R$ 0,00</div>
-                        <div class="cash__logo total"></div>
+                        <div class="cash__value total">R$ 0,00</div>
+                        <div class="cash__logo totalImg "></div>
                     </div>
                 </div>
             </div>
@@ -40,18 +40,6 @@
         <section class="sideBottom">
             <div class="movements__list">
                 <ul>
-                    <li>
-                        <div class="name__movement">Lanchonete</div>
-                        <div class="movement__value">R$ 20,00</div>
-                    </li>
-                    <li>
-                        <div class="name__movement">Lanchonete</div>
-                        <div class="movement__value">R$ 20,00</div>
-                    </li>
-                    <li>
-                        <div class="name__movement">Lanchonete</div>
-                        <div class="movement__value">R$ 20,00</div>
-                    </li>
                 </ul>
             </div>
         </section>
@@ -61,10 +49,10 @@
     <div class="modal">
         <form>
             <label for="modal__name">
-                <input type="text" id="modal__name" name="name" placeholder="Nome">
+                <input type="text" id="modal__name" name="name" placeholder="Nome" required>
             </label>
             <label for="modal__value">
-                <input type="text" id="modal__value" name="value" placeholder="Digite o valor">
+                <input type="number" id="modal__value" name="value" placeholder="Digite o valor" required>
             </label>
             <div>
                 <button class="can__bnt">Cancelar</button>

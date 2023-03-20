@@ -110,3 +110,78 @@ header {
     border-radius: 5px;
     box-shadow: 2px 2px  #750e49;
 }
+
+.bg-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #000000bd;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #FFF;
+    width: 450px;
+    min-height: 300px;
+    padding: 20px;
+    border: 2px solid #750e49;
+    border-radius: 5px;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal form label {
+    margin-bottom: 20px;
+}
+
+.modal form input {
+    width: 100%;
+    height: 60px;
+    padding: 20px 10px 0 10px;
+    border:2px solid #750e49;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    outline: none;
+   
+}
+
+.modal form > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.modal form > div > div button{
+    margin-left: 10px;
+}
+
+.modal form div button {
+    padding: 10px 12px;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.can__bnt {
+    background-color: #c0c0c0;
+}
+
+.red__bnt {
+    background-color: red;
+    color: #FFF;
+}
+
+.green__bnt {
+    background-color: green;
+    color: #FFF;
+}

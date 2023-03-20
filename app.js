@@ -20,6 +20,7 @@ saidaButtom.addEventListener('click',valueOut);
 document.querySelector('.can__bnt').addEventListener('click', (e)=> {
     e.preventDefault();
     bgModal.style.display = 'none';
+   
 });
 
 function getValues(e){
@@ -53,6 +54,9 @@ function extrato(name, value,color) {
     li.classList.add(color)
     divName.innerText = name;
     divValue.innerText = `R$ ${value.toFixed(2)}`;
+
+    inputName.value = '';
+    inputValue.value = '';
 
     li.appendChild(divName);
     li.appendChild(divValue);
